@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="imfinal.HomeController">
+   <children>
+      <Pane fx:id="pane1" layoutX="98.0" layoutY="54.0" prefHeight="204.0" prefWidth="228.0" stylesheets="@CssHome.css">
+         <children>
+            <ImageView fitHeight="230.0" fitWidth="270.0" layoutX="1.0" layoutY="-36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/ChatGPT%20Image%20May%207,%202025,%2006_20_50%20PM2.png" />
+               </image>
+            </ImageView>
+            <Text fx:id="eventCtr" fill="#607937" layoutX="102.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="pane2" layoutX="443.0" layoutY="56.0" prefHeight="204.0" prefWidth="228.0" stylesheets="@CssHome.css">
+         <children>
+            <Text fx:id="archiveCount" fill="#607937" layoutX="105.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="94.0" fitWidth="86.0" layoutX="73.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/box_5655997.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="pane3" layoutX="776.0" layoutY="52.0" prefHeight="204.0" prefWidth="228.0" stylesheets="@CssHome.css">
+         <children>
+            <Text fx:id="userCount" fill="#607937" layoutX="105.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="94.0" fitWidth="86.0" layoutX="75.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/user_10.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

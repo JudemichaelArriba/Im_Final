@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="imfinal.ArchiveController">
+   <children>
+      <TableView fx:id="archiveTable" layoutX="384.0" layoutY="222.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="eventName" prefWidth="179.6666717529297" text="Name" />
+          <TableColumn fx:id="eventCategoryColumn" prefWidth="134.33334350585938" text="Category" />
+            <TableColumn fx:id="eventDateColumn" prefWidth="259.3333740234375" text="Date" />
+            <TableColumn fx:id="endTimeColumn" prefWidth="168.66668701171875" text="End Time" />
+            <TableColumn fx:id="locationColumn" prefWidth="242.33331298828125" text="Location" />
+            <TableColumn fx:id="statusColumn" prefWidth="116.0" text="Status" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

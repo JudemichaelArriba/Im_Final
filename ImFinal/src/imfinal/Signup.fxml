@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="imfinal.FXMLDocumentController">
+   <left>
+      <AnchorPane prefHeight="500.0" prefWidth="365.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="usernameSpTxt" layoutX="66.0" layoutY="265.0" prefHeight="41.0" prefWidth="242.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #607937; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="text3" layoutX="66.0" layoutY="319.0" prefHeight="41.0" prefWidth="242.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #607937; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField fx:id="passwordSpTxt" layoutX="66.0" layoutY="319.0" prefHeight="41.0" prefWidth="242.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #607937; -fx-border-width: 0px 0px 2px 0px;" />
+            <Text fill="#607937" layoutX="127.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign Up">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Text>
+            <Button fx:id="signUpBtn" layoutX="121.0" layoutY="403.0" mnemonicParsing="false" onAction="#signUp" prefHeight="40.0" prefWidth="123.0" stylesheets="@CssSignUp.css" text="Sign up" textFill="WHITE" />
+            <Hyperlink fx:id="switchLogIn" layoutX="118.0" layoutY="463.0" onAction="#switchLogIn" text="Have an account? Log in" textFill="#607937" />
+            <ImageView fitHeight="85.0" fitWidth="86.0" layoutX="140.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/user_10.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="firstNameTxt" layoutX="66.0" layoutY="152.0" prefHeight="41.0" prefWidth="242.0" promptText="Firstname" style="-fx-background-color: transparent; -fx-border-color: #607937; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField fx:id="lastNameTxt" layoutX="66.0" layoutY="212.0" prefHeight="41.0" prefWidth="242.0" promptText="Lastname" style="-fx-background-color: transparent; -fx-border-color: #607937; -fx-border-width: 0px 0px 2px 0px;" />
+            <CheckBox fx:id="pasword3" layoutX="202.0" layoutY="374.0" mnemonicParsing="false" onAction="#showPasswordSp" text="Show Password" textFill="#607937" />
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="307.0" style="-fx-background-color: #607937;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="exitSp" layoutX="289.0" layoutY="5.0" mnemonicParsing="false" onAction="#exit" prefHeight="10.0" prefWidth="16.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="27.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../icons/exit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="328.0" fitWidth="310.0" layoutX="11.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icons/ChatGPT%20Image%20May%207,%202025,%2006_20_50%20PM.png" />
+               </image>
+            </ImageView>
+            <Text fill="WHITE" layoutX="25.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Management System">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

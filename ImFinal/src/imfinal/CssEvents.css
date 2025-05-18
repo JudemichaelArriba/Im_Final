@@ -1,0 +1,153 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 8, 2025, 12:11:59 PM
+    Author     : user
+*/
+
+#deleteBtn {
+  -fx-background-color: #c61a09;
+    -fx-text-fill: white;
+      -fx-background-radius: 15;
+     -fx-border-radius: 15;
+    
+}
+
+
+
+#crudPane {
+    -fx-border-color: #607937;
+    -fx-border-width: 2px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+}
+
+
+#addBtn {
+  -fx-background-color: #607937;
+    -fx-text-fill: white;
+      -fx-background-radius: 15;
+     -fx-border-radius: 15;
+    
+}
+
+#updateBtn {
+  -fx-background-color: #009AEE ;
+    -fx-text-fill: white;
+      -fx-background-radius: 15;
+     -fx-border-radius: 15;
+    
+}
+
+
+
+
+#nameTxt {
+    
+  
+   
+    -fx-background-radius: 15;
+    -fx-border-color: #607937;
+    
+    -fx-border-radius: 15;
+    -fx-padding: 10 20;
+}
+
+
+#dateTxt {
+    
+  
+   
+    -fx-background-radius: 15;
+    -fx-border-color: #607937;
+    
+    -fx-border-radius: 15;
+    -fx-padding: 10 20;
+}
+
+
+
+#categoryTxt1 {
+    
+  
+   
+    -fx-background-radius: 15;
+    -fx-border-color: #607937;
+    
+    -fx-border-radius: 15;
+    -fx-padding: 10 20;
+}
+
+#timeTxt {
+    
+  
+   
+    -fx-background-radius: 15;
+    -fx-border-color: #607937;
+    
+    -fx-border-radius: 15;
+    -fx-padding: 10 20;
+}
+
+#locationTxt {
+    
+  
+   
+    -fx-background-radius: 15;
+    -fx-border-color: #607937;
+    
+    -fx-border-radius: 15;
+    -fx-padding: 10 20;
+}
+
+#statusBx {
+    -fx-background-color: white;
+    -fx-border-color: #607937;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+    -fx-text-fill: black;
+}
+
+
+#statusBx .prompt-text {
+    -fx-text-fill: gray; 
+}
+
+
+#statusBx .arrow-button {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+}
+
+
+#statusBx .arrow {
+    -fx-shape: "M 0 0 L 4 4 L 8 0 Z"; 
+    -fx-background-color: #607937;
+    -fx-scale-shape: false;
+    -fx-padding: 0.25em;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: white;
+    -fx-border-color: #607937;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+
+#SearchTxt {
+    
+  
+   
+    -fx-background-radius: 15;
+    -fx-border-color: #607937;
+    
+    -fx-border-radius: 15;
+    -fx-padding: 10 20;
+}
